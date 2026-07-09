@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-19 14:49+0000\n"
-"PO-Revision-Date: 2026-06-29 09:56+0000\n"
+"PO-Revision-Date: 2026-07-10 16:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/wingpanel/"
 "indicator-network-extra/el/>\n"
@@ -59,19 +59,19 @@ msgstr ""
 
 #: data/network.metainfo.xml.in:76
 msgid "New features"
-msgstr ""
+msgstr "Νέες λειτουργίες"
 
 #: data/network.metainfo.xml.in:78
 msgid "WireGuard support"
-msgstr ""
+msgstr "Υποστήριξη WireGuard"
 
 #: data/network.metainfo.xml.in:79
 msgid "OWE support"
-msgstr ""
+msgstr "Υποστήριξη OWE"
 
 #: data/network.metainfo.xml.in:81
 msgid "Minor updates"
-msgstr ""
+msgstr "Μικρές ενημερώσεις"
 
 #: data/network.metainfo.xml.in:92
 msgid "Show cellular devices as compact circle buttons"
