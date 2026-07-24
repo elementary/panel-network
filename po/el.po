@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-19 14:49+0000\n"
-"PO-Revision-Date: 2026-06-29 09:56+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/wingpanel/"
 "wingpanel-indicator-network/el/>\n"
@@ -64,13 +64,11 @@ msgstr ""
 
 #: src/Indicator.vala:218 src/Indicator.vala:230
 msgid "unknown network"
-msgstr ""
+msgstr "άγνωστο δίκτυο"
 
 #: src/Widgets/PopoverWidget.vala:63
-#, fuzzy
-#| msgid "Airplane mode enabled"
 msgid "Airplane Mode"
-msgstr "Η λειτουργία πτήσης είναι ενεργοποιημένη"
+msgstr "Λειτουργία πτήσης"
 
 #: src/Widgets/PopoverWidget.vala:106
 msgid "Connect to Hidden Network…"
