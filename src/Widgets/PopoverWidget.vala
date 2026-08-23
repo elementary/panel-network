@@ -183,7 +183,7 @@ public class Network.Widgets.PopoverWidget : Gtk.Box {
 
         container_box.append (widget_interface);
 
-        if (is_in_session && get_first_child != null) {
+        if (is_in_session && get_first_child () != null) {
             container_box.append (widget_interface.sep);
         }
     }
