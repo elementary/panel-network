@@ -58,7 +58,7 @@ public class Network.Widgets.PopoverWidget : Gtk.Box {
 
         var airplane_toggle = new SettingsToggle () {
             action_name = "network.airplane-mode",
-            icon_name = "airplane-mode-disabled-symbolic",
+            icon_name = "panel-network-airplane-mode-disabled-symbolic",
             settings_uri = "settings://network",
             text = _("Airplane Mode")
         };
@@ -67,9 +67,9 @@ public class Network.Widgets.PopoverWidget : Gtk.Box {
         action_group.action_state_changed.connect ((action_name, state) => {
             if (action_name == "airplane-mode") {
                 if (state.get_boolean ()) {
-                    airplane_toggle.icon_name = "airplane-mode-symbolic";
+                    airplane_toggle.icon_name = "panel-network-airplane-mode-symbolic";
                 } else {
-                    airplane_toggle.icon_name = "airplane-mode-disabled-symbolic";
+                    airplane_toggle.icon_name = "panel-network-airplane-mode-disabled-symbolic";
                 }
             }
         });
