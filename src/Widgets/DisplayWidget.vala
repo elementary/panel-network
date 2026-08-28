@@ -49,7 +49,7 @@ public class Network.Widgets.DisplayWidget : Gtk.Box {
 
         switch (state) {
         case Network.State.DISCONNECTED_AIRPLANE_MODE:
-            image.icon_name = "airplane-mode-symbolic";
+            image.icon_name = "panel-network-airplane-mode-symbolic";
             break;
         case Network.State.CONNECTING_WIRED:
             image.icon_name = "panel-network-wired-acquiring-symbolic";
