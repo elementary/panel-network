@@ -148,7 +148,12 @@ public class Network.WifiInterface : Network.WidgetNMInterface {
             }
         });
     }
-
+        if (state) {
+            nm_client.networking_enabled = true;
+            nm_client.wireless_enabled = true;
+        } else {
+            nm_client.wireless_enabled = false;
+        }
     private void update () {
         switch (wifi_device.state) {
         case NM.DeviceState.UNKNOWN:
